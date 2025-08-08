@@ -27,11 +27,12 @@ source $vim_conf_dir/options.vim
 source $vim_conf_dir/keymaps.vim
 source $vim_plug_conf_dir/vim-plug.vim
 
-if has('gui_running') || $DISPLAY !=# ''
-    set guifont=Droid\ Sans\ Mono\ 10
-    colorscheme solarized
-else
-    colorscheme spring-night
-endif
+" if has('gui_running') || $DISPLAY !=# ''
+"     set guifont=Droid\ Sans\ Mono\ 10
+"     colorscheme solarized
+" else
+"     colorscheme spring-night
+" endif
+colorscheme spring-night
 
 " vim:set ft=vim ts=4 sw=4:
